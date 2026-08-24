@@ -1,7 +1,7 @@
 let progress = 0
 const progressbutton =
-document.getElementByld("progressbutton")
+document.getElementById("progressbutton")
 progressbutton.addEventListener("click",function() {
-    progress = progress + 1;
-    console.log(progress)
+    progress = progress + 10;
+    document.getElementById("progressdisplay").textcontent = progress + "% complete";
 });
