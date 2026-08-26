@@ -1,7 +1,7 @@
-let progress = 0
-const progressbutton =
-document.getElementById("progressbutton")
-progressbutton.addEventListener("click",function() {
-    progress = progress + 10;
-    document.getElementById("progressdisplay").textcontent = progress + "% complete";
+let progress=0
+const progressButton=
+document.getElementById("progressButton")
+progressButton.addEventListener("click",functio() {
+alert("krta hai kaam")
+    document.getElementById("progressDisplay").textContent=progress+"% complete";
 });
